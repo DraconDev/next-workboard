@@ -1,8 +1,8 @@
-import AuthButton from "@/components/AuthButton";
-import ConnectSupabaseSteps from "@/components/ConnectSupabaseSteps";
-import DeployButton from "@/components/DeployButton";
-import Header from "@/components/Header";
-import SignUpUserSteps from "@/components/SignUpUserSteps";
+import AuthButton from "@/components/Supabase/AuthButton";
+import ConnectSupabaseSteps from "@/components/Supabase/ConnectSupabaseSteps";
+import DeployButton from "@/components/Supabase/DeployButton";
+import Header from "@/components/Supabase/Header";
+import SignUpUserSteps from "@/components/Supabase/SignUpUserSteps";
 import { createClient } from "@/utils/supabase/server";
 import { cookies } from "next/headers";
 
